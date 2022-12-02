@@ -1,0 +1,257 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+.main {
+  width: 72%;
+  margin: auto;
+  padding-top: 15px;
+  justify-items: center;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.barre1 {
+  width: 30%;
+  justify-content: right;
+}
+.barre1 a {
+  text-decoration: none;
+  font-weight: bold;
+  padding-left: 15px;
+  color: gray;
+}
+.barre1 a:hover {
+  color: #00b39b;
+  transition: 0.3;
+}
+.part1 {
+  color: #00b39b;
+  padding-top: 30px;
+}
+.part1 img {
+  padding-top: 30;
+  padding-left: 50%;
+}
+.text p {
+  padding-top: 30px;
+  padding-left: 20%;
+  font-size: 30px;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+}
+.parag {
+  padding-top: 50px;
+  width: 48%;
+  font-size: 16px;
+  line-height: 30px;
+  color: gray;
+}
+.search {
+  height: 100vh;
+}
+.container {
+  display: flex;
+  height: auto;
+  justify-content: space-between;
+  padding-top: 10%;
+  color: white;
+  font-size: 25px;
+}
+.card1 {
+  width: 32%;
+  padding: 30px;
+  background-color: #00b39b;
+  border-radius: 10px;
+}
+.card2 {
+  width: 32%;
+  padding: 30px;
+  background-color: #3d83df;
+  border-radius: 10px;
+}
+.card3 {
+  width: 32%;
+  padding: 30px;
+  background-color: rgb(3, 3, 58);
+  border-radius: 10px;
+  color: white;
+}
+.title {
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+select {
+  border: none;
+  text-decoration: underline;
+  font-size: 16px;
+  background-color: initial;
+  color: white;
+  clip-path: inherit;
+  padding-bottom: 10px;
+}
+.selection {
+  padding-top: 40px;
+  align-items: flex-end;
+}
+select:hover {
+  transition: 0.3;
+}
+.links {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.links p {
+  color: #00b39b;
+  font-size: 30px;
+  width: 30%;
+}
+.logos {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  width: 66%;
+}
+.logos a p1 {
+  padding-right: 30px;
+  padding-bottom: 50px;
+}
+.stat {
+  height: 100vh;
+  background-color: #e5faf8;
+  display: flex;
+}
+.statut1 {
+  height: 100%;
+  width: 45%;
+  padding: 5%;
+}
+.statut2 {
+  height: 100%;
+  width: 20%;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  align-content: space-between;
+  justify-content: center;
+  text-align: center;
+}
+.statut3 {
+  padding-bottom: 50px;
+  height: 100%;
+  width: 20%;
+  text-align: ;
+}
+.cart {
+  background-color: white;
+  height: 45%;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.text2 {
+  width: 50%;
+  justify-content: center;
+  margin-left: 25%;
+  margin-top: 10%;
+  text-align: center;
+  margin-bottom: 5%;
+}
+.title2 {
+  font-size: 30px;
+  color: #00b39b;
+  margin-bottom: 20px;
+}
+.text2 p2 {
+  font-size: 12px;
+  color: gray;
+}
+
+.btn {
+  background-color: blue;
+  color: #fdf5df;
+  text-decoration: none;
+  border: 1px solid transparent;
+  font-size: 12px;
+  border-radius: 5px;
+  transition: transform 1s;
+  padding: 10px;
+  width: 100px;
+  justify-content: flex-end;
+}
+.city {
+  font-size: 20px;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.card {
+  width: 32%;
+}
+.box {
+  display: flex;
+}
+.btn a:hover {
+  background-color: rgb(28, 0, 128);
+  color: white;
+}
+.card a1:hover {
+  box-shadow: 10px 50px 10px 50px #f1f6f5;
+}
+.btn1 {
+  background-color: blue;
+  color: #fdf5df;
+  text-decoration: none;
+  border: 1px solid transparent;
+  font-size: 12px;
+  border-radius: 5px;
+  transition: transform 1s;
+  padding: 10px;
+  width: 300px;
+}
+.final pp {
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.logos a {
+  text-decoration: none;
+  padding-left: 15px;
+  color: gray;
+}
+.logos a:hover {
+  color: #00b39b;
+  transition: 0.3;
+}
+.card a {
+  text-decoration: none;
+  font-weight: bold;
+  padding-left: 15px;
+  color: gray;
+}
+.card a:hover {
+  transition: 0.3;
+}
+.final {
+  padding-left: 30%;
+}
+.footer {
+  font-size: 12px;
+  padding: 10% 20% 5% 20%;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+}
+.statut1 img {
+  padding-top: 10%;
+}
